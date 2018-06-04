@@ -1,0 +1,31 @@
+<div class="container" style="padding: 50px 0px;">
+    <div class="well" style="text-align: right; padding-bottom: 20px;">
+        <a routerLink="/Eventos">Regresar a Eventos</a>
+    </div>
+    <h4><label for="lblNombre">{{txtNombreEvento}}</label></h4>
+    <br/>
+    <h5>Usuarios registrados</h5>
+    <div class="table-responsive">
+        <table class="table table-striped table-sm">
+            <thead>
+                <tr style="font-weight: bold;">
+                    <td>Nombre</td>
+                    <td>Correo</td>
+                    <td>Empresa</td>
+                    <td>Cargo</td>
+                    <td>Celular</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let usuario of registros" style="font-size: 9pt;">
+                    <td>{{usuario.nombres}}</td>
+                    <td>{{usuario.correoElectronico}}</td>
+                    <td>{{usuario.empresa}}</td>
+                    <td>{{usuario.cargo}}</td>
+                    <td>{{usuario.telefonoCelular}}</td>
+                </tr>
+            </tbody>
+        </table>   
+    </div>
+</div>
+

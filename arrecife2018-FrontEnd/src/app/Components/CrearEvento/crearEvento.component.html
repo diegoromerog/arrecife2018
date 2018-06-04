@@ -1,0 +1,26 @@
+<div class="container" style="padding: 50px 0px;">
+    <div class="form-row">
+        <div class="form-group col-md-12">
+            <label for="lblNombre">Nombre del Evento</label>
+            <input type="text" class="form-control" [(ngModel)]="txtNombre" aria-describedby="helpNombre">
+            <small id="helpNombre" class="form-text text-muted">Describa el evento</small>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="lblCuando">Cuando será el evento</label>
+            <input type="text" class="form-control" [(ngModel)]="txtCuando" aria-describedby="helpCuando">
+            <small id="helpCuando" class="form-text text-muted">Escriba cuando se llevará a cabo el evento</small>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="lblDonde">Donde será el evento</label>
+            <input type="text" class="form-control" [(ngModel)]="txtDonde" aria-describedby="helpDonde">
+            <small id="helpDonde" class="form-text text-muted">Escriba donde se llevará a cabo el evento</small>
+        </div>
+        <div class="form-group col-md-6">
+            <button type="submit" class="btn btn-primary" (click)="crearEvento()">Crear Evento</button> 
+        </div>
+        <div class="form-group col-md-6" style="text-align: right;">
+            <a routerLink="/Eventos">Regresar</a>
+        </div>
+    </div>
+    
+</div>

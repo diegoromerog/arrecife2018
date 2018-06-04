@@ -1,0 +1,15 @@
+<div class="container" style="padding: 50px 0px;">
+
+    <div class="row">
+        <div class="col-md-12" style="text-align: right;">
+            <a class="nav-link" routerLink="/CrearEvento">+ Crear Evento</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <ul class="list-group" *ngFor ="let evento of eventos">
+                 <a routerLink="../DetalleEvento/{{evento.idevento}}"><li class="list-group-item">{{evento.nombre}}</li></a>
+            </ul>
+        </div>
+    </div>
+</div>
