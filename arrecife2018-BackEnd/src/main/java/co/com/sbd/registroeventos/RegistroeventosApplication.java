@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class RegistroeventosApplication {
 
 	public static void main(String[] args) {
+		
 		SpringApplication.run(RegistroeventosApplication.class, args);
+	
 	}
 }
