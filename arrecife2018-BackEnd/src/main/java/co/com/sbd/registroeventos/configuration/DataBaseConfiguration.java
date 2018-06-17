@@ -29,9 +29,12 @@ public class DataBaseConfiguration {
 	public DataSource dataSource() {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-		dataSource.setUrl("jdbc:mysql://172.17.0.18:3306/registroeventos?useSSL=false");
-		dataSource.setUsername("root");
-		dataSource.setPassword("Sbd2017*");
+		dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/ArrecifeDB?useSSL=false");
+		dataSource.setUsername("UsuarioArrecifeDB");
+		dataSource.setPassword("$m4t14s#");
+//		dataSource.setUrl("jdbc:mysql://172.17.0.18:3306/registroeventos?useSSL=false");
+//		dataSource.setUsername("root");
+//		dataSource.setPassword("Sbd2017*");
 		return dataSource;
 	}
 	

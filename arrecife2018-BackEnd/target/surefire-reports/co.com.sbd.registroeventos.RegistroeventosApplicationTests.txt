@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: co.com.sbd.registroeventos.RegistroeventosApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.974 sec - in co.com.sbd.registroeventos.RegistroeventosApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.303 sec - in co.com.sbd.registroeventos.RegistroeventosApplicationTests
